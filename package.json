@@ -1,0 +1,31 @@
+{
+	"name": "sveltetodo",
+	"description": "Svelte front-end localStorage app",
+	"version": "1.0.0",
+	"scripts": {
+		"dev": "run-p watch:routify watch:rollup",
+		"prebuild": "routify --single-build",
+		"build": "rollup -c",
+		"watch:rollup": "rollup -c -w",
+		"watch:routify": "routify",
+		"start": "sirv public --single"
+	},
+	"devDependencies": {
+		"@rollup/plugin-commonjs": "^14.0.0",
+		"@rollup/plugin-node-resolve": "^8.0.0",
+		"@sveltech/routify": "^1.9.10",
+		"autoprefixer": "^10.0.4",
+		"npm-run-all": "^4.1.5",
+		"postcss": "^8.1.10",
+		"rollup": "^2.3.4",
+		"rollup-plugin-livereload": "^2.0.0",
+		"rollup-plugin-svelte": "^6.0.0",
+		"rollup-plugin-terser": "^7.0.0",
+		"sass": "^1.29.0",
+		"svelte": "^3.0.0",
+		"svelte-preprocess": "^4.6.1"
+	},
+	"dependencies": {
+		"sirv-cli": "^1.0.0"
+	}
+}

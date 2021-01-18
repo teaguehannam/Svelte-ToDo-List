@@ -1,0 +1,10 @@
+.ListItemHome {
+	background: $black1;
+	max-width: 400px;
+	margin: 12px auto;
+	color: white;
+	width: 100%;
+
+	@include no-highlight;
+
+}

@@ -1,0 +1,42 @@
+
+$text-font-stack: 'Helvetica', sans-serif !default;
+$code-font-stack: 'Courier New', monospace !default;
+
+$text-color: rgb(19,19,19) !default;
+$brand-color: rgb(229,0,80) !default;
+
+$clear1: rgba(19,19,19,0);
+$clear2: rgba(252,252,252,0);
+
+$menu-font: rbga(252,252,252,0.9);
+$menu-font-glow: rbga(252,252,252,1);
+
+$black1: rgb(8,16,34); 
+$black1-opacity: rgba(8,16,34,0.5); 
+$silver1: rgb(146,153,188);
+
+$brown1: rgb(91,78,67); 
+$brown2: rgb(194,157,121);
+
+$vapor-accent: rgba(240,67,231,1);
+$vapor-accent-opacity: rgba(240,67,231,0.6);
+$vapor-component-bg: rgba(241,246,239,0.9);
+$vapor-component-bg-opacity: rgba(241,246,239,0.66);
+$vapor-font-menu: rgba(69,135,148,1);
+$vapor-font-menu-opacity: rgba(69,135,148,0.6);
+$vapor-white: rgba(255,252,255,1);
+
+$highest-brown: rgb(253,252,250);
+$highest-brown-opacity: rgba(253,252,250, 0.9);
+
+$max-width: 1440px !default;
+
+$breakpoints: (
+	'xsmall': (max-width: 528px),
+	'small': (max-width: 820px),
+	'medium': (max-width: 1500px),
+	'large': (max-width: 1900px),
+	'xlarge': (max-width: 2500px)
+) !default;
+
+$base-url: '/assets/' !default;

@@ -1,0 +1,11 @@
+
+Theme changes: 
+    wallpaper 
+    component bg-color
+    font-color
+    border color
+
+Font changes:
+	type
+	weight
+	

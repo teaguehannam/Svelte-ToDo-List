@@ -1,0 +1,18 @@
+// vapor them
+.App {
+	background-color: rgba(19,19,19,1);
+	background: url('../img/vapor1.png') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	.Settings {
+		margin: 64px auto 0px auto;
+		width: 90%;
+		height: calc(100% - 172px);
+		max-width: $max-width;
+		
+
+	}
+}
