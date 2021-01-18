@@ -1,2 +1,2 @@
 # Svelte-ToDo-List
-Focus on client side storage and customizable User Interface.
+Client side storage, and customizable user experience.

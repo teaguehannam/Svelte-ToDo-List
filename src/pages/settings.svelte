@@ -14,7 +14,7 @@
 	}
 
 	const saveSettings = () => {
-		console.log(selected);
+		console.log("didnt save:", selected);
 	}
 
 	const themes = ['default', 'vapor', 'darkCity', 'darkMtn', 'oled'];

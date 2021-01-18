@@ -1,19 +1,23 @@
+<!-- this is '/' -->
 <script>
 	import { List } from '../stores/List.js';
 	import ListItem from '../components/ListItem.svelte';
 	var listLength = Object.keys($List[0]).length;
+	let Highlighted; // false
 </script>
 
 <div class="Home">
-	<div class="List">
+	<div class="DisplayListHome">
 		{#if listLength}
 			{#each {length: listLength} as _, i}
-				<div class="ListItemHome">
+				<div class="ListItemHome" class:Show={Highlighted}>
 				    <ListItem data={$List[0][i]} />
 				</div>
 			{/each}
 		{:else}
-			<p>Add items to your <a href='./list'>list</a></p>
+			<p class="Unset">Add items to your
+				<a class="link" href='./list'>list</a>
+			</p>
 		{/if}
 	</div>
 </div>
