@@ -1,7 +1,15 @@
-<!-- For when a route doesn't exist (404) -->
+<!--(404)-->
 <script>
 	import { route } from "@sveltech/routify";
 </script>
 
-<h1>404</h1>
-<p>The path <code>{$route.leftover}</code> was not found.</p>
+<style lang=scss>
+	.Hi {
+		text-align: center;
+	}
+</style>
+
+<div class="Hi">
+	<!-- <p>404error</p> -->
+	<p><code>{$route.leftover}</code> was not found.</p>
+</div>

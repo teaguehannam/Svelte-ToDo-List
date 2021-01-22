@@ -1,10 +1,5 @@
 <script>
 	import MainMenu from '../components/MainMenu.svelte';
-
-
-	// Theme changer
-	// localstorage.set('theme', 'litCity')
-
 </script>
 
 <style lang=scss>
