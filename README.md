@@ -1,2 +1,2 @@
 # Svelte-ToDo-List
-Client side storage and global stores example
+Svelte client-side storage and global state example
